@@ -1,5 +1,5 @@
 # ascii-art
-      This project can take video and camera and convert it to ascii art
+      <p>This project can take video and camera and convert it to ascii art</p>
 
 # dependency:
-      opencv_python
+      <p>opencv_python</p>
