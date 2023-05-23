@@ -2,7 +2,7 @@ import os
 import cv2
 
 chars = ["█", "▓", "▒", "░", "▌", "@", "#", "$", "%", "▲", "▼", "►", "◄", "/", "\\", "?", ";", "+", ":", "^", "*", ",", ".", "\"", "'", "`"]
-
+chars = chars[::-1]
 video = cv2.VideoCapture(0)
 while True:
     _, frame = video.read()
