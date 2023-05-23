@@ -1,3 +1,4 @@
+import os
 import cv2
 
 chars = ["█", "▓", "▒", "░", "▌", "@", "#", "$", "%", "▲", "▼", "►", "◄", "/", "\\", "?", ";", "+", ":", "^", "*", ",", ".", "\"", "'", "`"]
@@ -16,6 +17,7 @@ while True:
             if counter > 100:
                 counter = 0
                 frame_char += "\n"
+    os.system("cls")
     print(frame_char)
     if cv2.waitKey(1) == 113:
         break
