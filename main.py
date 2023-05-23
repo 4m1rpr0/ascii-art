@@ -15,7 +15,7 @@ while True:
         for pixel in frame//10:
             counter += 1
             frame_char += chars[pixel]
-            if counter > 100:
+            if counter > 111:
                 counter = 0
                 frame_char += "\n"
     os.system("cls")
